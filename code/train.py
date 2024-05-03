@@ -38,8 +38,8 @@ def main(config):
     if master_process:
         print("\nLoading data...")
     try:
-        train_data = pickle.load(open(config["path_to_data"]+"GPT_data_train.pkl","rb"))
-        val_data = pickle.load(open(config["path_to_data"]+"GPT_data_validation.pkl","rb"))
+        train_data = pickle.load(open(config["path_to_data"]+"data_train.pkl","rb"))
+        val_data = pickle.load(open(config["path_to_data"]+"data_validation.pkl","rb"))
         if master_process:
             print(f"Loaded successfully {len(train_data)} samples for training.\n")
             print(f"Loaded successfully {len(val_data)} samples for validation.\n")
