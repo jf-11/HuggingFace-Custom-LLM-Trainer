@@ -41,7 +41,7 @@ class dataset(Dataset):
 
     The `__getitem__` method of this class processes and returns a single tokenized input at a specified index,
     including the input ids, attention mask, and a modified label where the part corresponding to the instruction
-    is masked with -100, ensuring that the model does not predict tokens for the instruction part.
+    is masked with -100, ensuring that the loss calculation is not influenced the instruction part.
 
     The `__len__` method returns the length of the dataset, allowing its size to be queried with `len(dataset)`. 
     """
