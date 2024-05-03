@@ -11,7 +11,7 @@ This repository provides a setup for training large language models (LLMs) using
 
 ## Configuration
 
-The training process is driven by a JSON configuration file (`config.json`) which specifies all necessary parameters and settings. Here's an overview of the arameters:
+The training process is driven by a JSON configuration file (`config.json`) which specifies all necessary parameters and settings. Here's an overview of the parameters:
 
 - `run_name`: Identifier for the training run.
 - `wandb_log`: Boolean to enable logging with Weights & Biases.
