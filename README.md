@@ -1,5 +1,12 @@
 # HuggingFace-LLM-Custom-Training
 
+<p>
+    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"/>
+</p>
+
+<img width="274" alt="logo" src="logo.png">
+
 This repository provides a setup for training large language models (LLMs) using Hugging Face's Transformers library. It is designed to handle distributed training across multiple GPUs and incorporates techniques such as LoRA and quantization for efficient training.
 
 ## Configuration
