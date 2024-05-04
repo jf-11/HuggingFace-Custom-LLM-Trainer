@@ -7,7 +7,7 @@
 
 <img width="274" alt="logo" src="logo.png">
 
-This repository provides a setup for fine-tuning large language models (LLMs) using Hugging Face's Transformers library. It is designed to handle distributed training across multiple GPUs and incorporates techniques such as LoRA and quantization for efficient training.
+This repository provides a minimal setup to fine-tune large language models (LLMs) using the Hugging Face Transformers library in a custom training loop. It is designed to handle distributed training across multiple GPUs and incorporates techniques such as LoRA and quantization for efficient training.
 
 ## Configuration
 
