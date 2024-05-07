@@ -249,6 +249,9 @@ def main(config):
                 if avg_val_loss < lowest_val_loss:
                     lowest_val_loss = avg_val_loss
                     raw_model.save_pretrained(f"{config['out_dir']}{config['run_name']}_{epoch+1:02}")
+    
+    if ddp:
+        destroy_process_group()
 
 # Handle execution ======================================================================================================
 if __name__ == "__main__":
